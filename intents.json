@@ -1,0 +1,1212 @@
+{
+  "intents": [
+    {
+      "tag": "Greetings",
+      "patterns": [
+        "hi",
+        "how are you",
+        "is anyone there",
+        "hello",
+        "whats up",
+        "hey",
+        "yo",
+        "listen",
+        "please help me",
+        "i am learner from",
+        "i belong to",
+        "first aid",
+        "i need help",
+        "sos",
+        "help",
+        "hi chatbot",
+        "chatbot",
+        "hey ya",
+        "how do I start",
+        "talking to you for first time",
+        "learn first aid"
+      ],
+      "responses": ["Hello ^_^! How can I help you?"],
+      "context_set": ""
+    },
+    {
+      "tag": "Exit",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "cya",
+        "see you",
+        "later",
+        "see you later",
+        "goodbye",
+        "i am leaving",
+        "have a Good day",
+        "you helped me",
+        "thanks a lot",
+        "thanks a ton",
+        "you are the best",
+        "great help",
+        "you saved me",
+        "you are a good learning buddy"
+      ],
+      "responses": ["I hope I was able to assist you, good bye! ^_^"],
+      "context_set": ""
+    },
+    {
+      "tag": "Emergency Number",
+      "patterns": [
+        "Emergency number",
+        "hospital number",
+        "call ambulance",
+        "hotline",
+        "telephone",
+        "contact",
+        "number"
+      ],
+      "responses": ["Dial 999 or 991 to call an ambulance."],
+      "context_set": ""
+    },
+    {
+      "tag": "Cuts",
+      "patterns": [
+        "What to do if cuts?",
+        "How to cure cuts?",
+        "Which medicine to apply for cuts?",
+        "What to apply on cuts?",
+        "cuts"
+      ],
+      "responses": [
+        "1) Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1–2 minutes. 2) Apply petroleum jelly to keep the wound moist for quick healing. 3) Cover the cut with a sterile bandage. 4) Take acetaminophen if needed for pain."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Abrasions",
+      "patterns": [
+        "how do you treat abrasions?",
+        "Do abrasions cause scars?",
+        "abrasions",
+        "what to do if abrasions?",
+        "Which medicine to apply for abrasions?",
+        "How to cure abrasions?"
+      ],
+      "responses": [
+        "1) Wash your hands. 2) Clean the abrasion with mild soap and water. 3) Remove debris with sterilized tweezers. 4) If not bleeding, leave open; if bleeding, apply pressure and cover with antibiotic ointment and bandage. 5) Change dressing daily and watch for infection."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stings",
+      "patterns": [
+        "How do you treat Sting?",
+        "stings",
+        "What to do if you get a sting?",
+        "Which medicine to apply if sting?"
+      ],
+      "responses": [
+        "1) Remove stinger by scraping with a credit card. 2) Apply ice wrapped in cloth for 20 minutes every hour. 3) Take antihistamines (e.g., Benadryl) for itching and swelling. 4) Use acetaminophen or ibuprofen for pain. 5) Wash with soap and water; apply hydrocortisone cream as needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Splinter",
+      "patterns": [
+        "How to remove splinters",
+        "How to cure splinters?",
+        "What to do if I have splinters?",
+        "How do you bring a splinter to the surface?"
+      ],
+      "responses": [
+        "1) Soak the area in warm water with Epsom salts for 20–30 minutes. 2) Alternatively, soak in white vinegar or oil. 3) Once the skin softens, use sterilized tweezers to gently pull out the splinter. 4) Clean and bandage the site."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sprains",
+      "patterns": [
+        "How do you treat a sprain?",
+        "what to do if I get a sprain?",
+        "Which cream to apply if i get a sprain?",
+        "Which medicine to apply if I get a sprain?"
+      ],
+      "responses": [
+        "1) Apply an ice pack for 15–20 minutes every 2–3 hours. 2) Compress with an elastic bandage. 3) Elevate the injured part. 4) Use ibuprofen or acetaminophen for pain."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Strains",
+      "patterns": [
+        "How do you treat a strain?",
+        "what to do if I get a strain?",
+        "Which cream to apply if i get a strain?",
+        "Which medicine to apply if I get a strain?",
+        "How do you diagnose a strain?",
+        "Is heat or ice better for a pulled muscle?"
+      ],
+      "responses": [
+        "1) Rest the muscle. 2) Apply ice immediately (wrap in towel). 3) Compress with an elastic bandage. 4) Elevate the area. 5) After 48 hours, you may alternate heat and ice. 6) Take NSAIDs like ibuprofen if needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fever",
+      "patterns": [
+        "How do you treat a mild fever?",
+        "what to do if i get a mild fever?",
+        "Which medicine to take if I get a mild fever?",
+        "fever"
+      ],
+      "responses": [
+        "1) Drink plenty of fluids. 2) Dress lightly. 3) Use a light blanket if chilled. 4) Take acetaminophen or ibuprofen. 5) Seek medical help if fever persists beyond 5 days."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nasal Congestion",
+      "patterns": [
+        "How do you treat nasal congestion?",
+        "what to do if I get a nasal congestion?",
+        "Which medicine to take if I have a nasal congestion?",
+        "what to do if i have a blocked nose?",
+        "How do you treat a blocked nose?",
+        "How long does nasal congestion last?"
+      ],
+      "responses": [
+        "1) Keep nasal passages moist with a humidifier or saline spray. 2) Drink plenty of fluids. 3) Apply a warm, wet towel to your face to relieve discomfort."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cough",
+      "patterns": [
+        "How to cure cough?",
+        "How do you treat cough?",
+        "what to do if I get a cough?",
+        "Which medicine to take if I get cough?",
+        "How do you get rid of cough?"
+      ],
+      "responses": [
+        "1) Mix 2 tsp honey in warm water or tea, drink once or twice daily. 2) Brew ginger tea (20–40 g fresh ginger) with honey or lemon. 3) Stay hydrated—room-temperature fluids can ease cough and congestion."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sore Throat",
+      "patterns": [
+        "How do you treat sore throat?",
+        "what to do if I get a sore throat?",
+        "Which medicine to take if I get a sore throat?",
+        "How to cure sore throat?"
+      ],
+      "responses": [
+        "1) Rest and hydrate. 2) Inhale steam over hot water for 5–10 minutes, repeat several times daily. 3) Sip warm broth or tea with honey."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Gastrointestinal problems",
+      "patterns": [
+        "How do you treat gas problems?",
+        "what to do if I have gastrointestinal problems?",
+        "Which medicine to take if I get gas problem?",
+        "How to cure gas problems?",
+        "gas"
+      ],
+      "responses": [
+        "1) Replenish fluids. 2) Avoid antidiarrheals or laxatives unless directed. 3) Antacids may help. 4) See a doctor if symptoms persist."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Skin problems",
+      "patterns": [
+        "How do you treat Skin problems?",
+        "what to do if I get a skin allergy?",
+        "Which medicine to take if I get a skin allergy?",
+        "How to cure skin allergy?",
+        "skin allergy",
+        "skin problems"
+      ],
+      "responses": [
+        "1) Apply hydrocortisone cream or calamine lotion. 2) Take oral antihistamines. 3) Use cold compresses or oatmeal baths. 4) Consult a doctor for severe rashes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Abdominal Pain",
+      "patterns": [
+        "How do you treat abdominal pain?",
+        "what to do if I get a abdominal pain?",
+        "Which medicine to take if I get a abdominalpain?",
+        "How to cure abdominal pain?",
+        "abdominal pain"
+      ],
+      "responses": [
+        "1) Sip clear fluids (water, broth, diluted juice). 2) Eat bland foods (crackers, toast, rice, applesauce). 3) Avoid spicy/greasy foods and caffeine for 48 hours."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Bruises",
+      "patterns": [
+        "How do you treat bruises?",
+        "what to do if I get a bruise?",
+        "Which medicine to take if I get a bruise?",
+        "How to cure bruises?",
+        "bruises"
+      ],
+      "responses": [
+        "1) Ice with a towel-wrapped pack for 10–20 minutes. 2) Repeat several times daily. 3) Compress with an elastic bandage if swelling."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Broken Toe",
+      "patterns": [
+        "How do you treat a broken Toe?",
+        "what to do if I get a broken Toe?",
+        "Which medicine to take if I get a broken toe?",
+        "How to cure broken toe?",
+        "toe broken"
+      ],
+      "responses": [
+        "1) Elevate the foot, apply ice, and avoid weight-bearing. 2) A doctor may need to realign the toe; surgery is rare. 3) Heals in 4–6 weeks with RICE and pain relievers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Choking",
+      "patterns": [
+        "How do you treat choking?",
+        "what to do if I get a choke?",
+        "Which medicine to take if I get choked?",
+        "How to cure choking?",
+        "choke"
+      ],
+      "responses": [
+        "1) Encourage coughing. 2) If ineffective, deliver back blows and abdominal thrusts. 3) Call emergency services if airway remains blocked."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Wound",
+      "patterns": [
+        "How do you treat a wound?",
+        "what to do if I get a Wound?",
+        "Which medicine to take if I get wounded?",
+        "How to cure a wound?",
+        "wound"
+      ],
+      "responses": [
+        "1) Rinse with clean water and apply pressure with gauze until bleeding stops. 2) Elevate the area. 3) Cover with a sterile bandage and change daily."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Diarrhea",
+      "patterns": [
+        "How do you treat diarrhea?",
+        "what to do if I get diarrhea?",
+        "Which medicine to take if I get diarrhea?",
+        "How to cure diarrhea?"
+      ],
+      "responses": [
+        "1) Rehydrate with water or electrolyte solutions. 2) Avoid dairy products. 3) Seek medical advice if it lasts more than 2 days."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Frost bite",
+      "patterns": [
+        "How do you treat a frost bite?",
+        "what to do if I get a frost bite?",
+        "Which medicine to take if I get a frost bite?",
+        "How to cure frost bite?",
+        "frostbite"
+      ],
+      "responses": [
+        "1) Move to a warm area and remove tight clothing. 2) Rewarm in warm (not hot) water until sensation returns. 3) Cover with sterile, dry dressings and keep warm."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Heat Exhaustion",
+      "patterns": [
+        "How do you treat heat exhaustion?",
+        "what to do if I feel exhausted due to heat?",
+        "Which medicine to take if I get exhausted?",
+        "How to cure heat exhaustion?",
+        "overheat",
+        "heat stroke"
+      ],
+      "responses": [
+        "1) Move to shade or air-conditioning. 2) Elevate legs and remove tight clothing. 3) Sip cool water or electrolyte drinks. 4) Cool with sponging and fanning."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nose Bleed",
+      "patterns": [
+        "How do you treat a bleeding nose?",
+        "what to do if I my nose is bleeding?",
+        "Which medicine to take if I get nose bleed?",
+        "How to cure nose bleeding?",
+        "bleeding nose",
+        "nose blood"
+      ],
+      "responses": [
+        "1) Pinch nostrils shut for 10–15 minutes and breathe through your mouth. 2) Keep head upright; dont tilt back. 3) If bleeding continues beyond 20 minutes, seek medical help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulled Muscle",
+      "patterns": [
+        "How do you treat a pulled muscle?",
+        "what to do if my muscle is pulled?",
+        "Which medicine to take if I got pulled muscle?",
+        "How to cure a pulled muscle?",
+        "muscle pain"
+      ],
+      "responses": [
+        "1) Use RICE: rest, ice (15–20 min), compression, elevation. 2) Repeat ice every 2–3 hours for the first few days. 3) Take NSAIDs for pain if needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sun Burn",
+      "patterns": [
+        "How do you treat sun burn?",
+        "what to do if I get a sun burn?",
+        "Which medicine to take if I get sunb burn?",
+        "How to cure a sun burn?"
+      ],
+      "responses": [
+        "1) Gently clean with mild soap and water. 2) Apply antibiotic ointment and a nonstick bandage. 3) Stay out of the sun and use aloe or soothing cream."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Vertigo",
+      "patterns": [
+        "How do you treat a vertigo?",
+        "what to do if I get a vertigo?",
+        "Which medicine to take if I get vertigo?",
+        "How to cure a vertigo?"
+      ],
+      "responses": [
+        "1) Perform the Epley maneuver: sit, turn head 45° left, lie back, hold 30 s, turn head 90° right, hold 30 s, sit back up. 2) Repeat on the opposite side if needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Normal Bleeding",
+      "patterns": [
+        "How do you treat bleeding?",
+        "what to do if I get a bleeding?",
+        "Which medicine to take if I get bleeding?",
+        "How to cure bleeding?"
+      ],
+      "responses": [
+        "1) Clean with saline or clean water. 2) Dont use cotton that sheds fibers. 3) Apply an appropriate dressing (band-aid or hypoallergenic tape)."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Eye Injury",
+      "patterns": [
+        "How do you treat an eye injury?",
+        "what to do if I get a eye injury?",
+        "Which medicine to take if I injured my eye?",
+        "How to cure injured eye?"
+      ],
+      "responses": [
+        "1) Dont rub or press on the eye. 2) Apply a cold compress gently. 3) Seek immediate medical attention for vision changes or severe pain."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Chemical Burn",
+      "patterns": [
+        "How do you treat a chemical burn?",
+        "what to do if I get a chemical burn?",
+        "Which medicine to take if I get burn due to chemicals?",
+        "How to cure chemical burn?"
+      ],
+      "responses": [
+        "1) Remove contaminated clothing and rinse the area with clean water for ≥ 20 minutes. 2) Protect eyes if affected. 3) Cover with a clean, dry dressing and seek medical care."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Food Poison",
+      "patterns": [
+        "How do you treat a food poison?",
+        "what to do if I get food poison?",
+        "Which medicine to take if I am food poisoned?",
+        "How to cure food poisoning?",
+        "food poison",
+        "food poisoning"
+      ],
+      "responses": [
+        "1) Stop eating/drinking for a few hours. 2) Sip small amounts of water or ice chips. 3) Try clear broths or electrolyte drinks. 4) Use ORS solutions if dehydration occurs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Broken Teeth",
+      "patterns": [
+        "How do you treat broken Teeth ?",
+        "what to do if my teeth got broken?",
+        "Which medicine to take if I get broken teeth?",
+        "Cure broken teeth?",
+        "teeth broke"
+      ],
+      "responses": [
+        "1) Rinse the tooth and mouth with warm water. 2) If adult tooth, try to reinsert gently. 3) Bite a clean cloth to hold it in place. 4) See a dentist immediately."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Seizure",
+      "patterns": [
+        "How do you treat a seizure?",
+        "what to do if i get a seizure?",
+        "Which medicine to take if I get seizure?",
+        "How to cure seizure?"
+      ],
+      "responses": [
+        "1) Guide the person to the floor. 2) Turn them on their side to keep airway clear. 3) Dont restrain; protect head. 4) Call emergency services if seizure lasts > 5 minutes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Anxiety",
+      "patterns": [
+        "I feel anxious",
+        "my heart is racing",
+        "I worry a lot",
+        "I cant stop worrying"
+      ],
+      "responses": [
+        "Im sorry youre feeling anxious. Try deep breathing: inhale for 4 seconds, hold for 4, exhale for 4. Consider talking to a friend or professional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Depression",
+      "patterns": [
+        "I feel sad",
+        "I dont want to get up",
+        "I feel hopeless",
+        "nothing interests me"
+      ],
+      "responses": [
+        "Im sorry to hear that. It might help to set small goals, reach out to someone you trust, and consider professional support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Panic Attack",
+      "patterns": [
+        "Im panicking",
+        "I feel like I cant breathe",
+        "Im having a panic attack",
+        "my chest hurts"
+      ],
+      "responses": [
+        "Focus on slow, steady breathing. Inhale for 4, exhale for 6. Remind yourself it will pass. If it continues, seek medical help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress",
+      "patterns": [
+        "Im stressed out",
+        "I have too much work",
+        "I cant relax",
+        "Im overwhelmed"
+      ],
+      "responses": [
+        "Try breaking tasks into smaller steps, take short breaks, and practice mindfulness or a brief walk to reset."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Insomnia",
+      "patterns": [
+        "I cant sleep",
+        "I have trouble sleeping",
+        "Im up all night",
+        "I cant fall asleep"
+      ],
+      "responses": [
+        "Establish a bedtime routine, avoid screens an hour before bed, and try relaxation techniques like progressive muscle relaxation."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Low Self-Esteem",
+      "patterns": [
+        "I dont feel good about myself",
+        "I feel worthless",
+        "I have no confidence",
+        "I hate myself"
+      ],
+      "responses": [
+        "Try listing three things you like about yourself each day. Practicing self-compassion exercises can also help build confidence."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Social Anxiety",
+      "patterns": [
+        "Im nervous around people",
+        "I hate social events",
+        "I worry Ill embarrass myself",
+        "I feel judged"
+      ],
+      "responses": [
+        "Start with small social goals, like saying hello. Use grounding techniques in social settings and challenge negative thoughts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "PTSD",
+      "patterns": [
+        "I have flashbacks",
+        "I relive the trauma",
+        "Im on edge all the time",
+        "I feel unsafe"
+      ],
+      "responses": [
+        "It sounds overwhelming. You might consider trauma-focused therapy, grounding exercises, and building a support network."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "OCD",
+      "patterns": [
+        "I have intrusive thoughts",
+        "I need to check things repeatedly",
+        "I cant stop counting",
+        "I have rituals"
+      ],
+      "responses": [
+        "Recognizing the pattern is a good first step. Exposure and response prevention therapy can help. Consider talking to a specialist."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ADHD",
+      "patterns": [
+        "I cant focus",
+        "Im easily distracted",
+        "I forget tasks",
+        "I feel restless"
+      ],
+      "responses": [
+        "Try breaking work into short intervals with clear breaks and using reminders or timers to stay on track."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Bipolar Disorder",
+      "patterns": [
+        "I have mood swings",
+        "I feel extremely high",
+        "I feel extremely low",
+        "Im too energetic then too tired"
+      ],
+      "responses": [
+        "Mood monitoring and consistent routines can help. Working with a mental health professional on a treatment plan is encouraged."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Eating Disorder",
+      "patterns": [
+        "Im afraid to eat",
+        "I purge after eating",
+        "I restrict my diet",
+        "I binge eat"
+      ],
+      "responses": [
+        "It takes courage to share this. Seeking support from a therapist or dietitian experienced in eating disorders can be very helpful."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Self-Harm",
+      "patterns": [
+        "I want to hurt myself",
+        "I cut myself",
+        "I feel like harming myself",
+        "I cant stop self-harm"
+      ],
+      "responses": [
+        "Im really sorry youre feeling like this. You deserve help and care. Please reach out to a trusted professional or crisis line right now."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Suicidal Thoughts",
+      "patterns": [
+        "I want to die",
+        "I cant go on",
+        "Im thinking about suicide",
+        "I want to end my life"
+      ],
+      "responses": [
+        "Im so sorry youre experiencing this. Youre not alone and help is available—please contact emergency services or a suicide hotline immediately."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Panic Disorder",
+      "patterns": [
+        "I keep having panic attacks",
+        "I fear the next attack",
+        "Im always anxious about having one",
+        "severe panic"
+      ],
+      "responses": [
+        "Learning to recognize early signs and using breathing or grounding techniques can help. Therapy such as CBT is effective for panic disorder."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Phobia",
+      "patterns": [
+        "Im terrified of heights",
+        "I cant stand spiders",
+        "I have phobia of flying",
+        "I avoid elevators"
+      ],
+      "responses": [
+        "Gradual exposure and cognitive restructuring can reduce phobic reactions. A therapist can guide you through exposure therapy safely."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Insomnia Chronic",
+      "patterns": [
+        "Ive been sleepless for months",
+        "I wake up frequently",
+        "I cant maintain sleep",
+        "I have long-term insomnia"
+      ],
+      "responses": [
+        "Tracking sleep patterns and practicing good sleep hygiene help. Cognitive Behavioral Therapy for Insomnia (CBT-I) is a proven approach."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adjustment Disorder",
+      "patterns": [
+        "I cant adapt to change",
+        "I feel upset about moving",
+        "Im stressed after breakup",
+        "I cant adjust"
+      ],
+      "responses": [
+        "Its common to struggle with life changes. Talking with a counselor and building healthy coping strategies can aid adjustment."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Grief",
+      "patterns": [
+        "I miss my loved one",
+        "Im grieving",
+        "I cant stop crying",
+        "I lost someone"
+      ],
+      "responses": [
+        "Grief can be very painful. Allow yourself to feel, share memories with others, and consider support groups or therapy."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Loneliness",
+      "patterns": [
+        "I feel lonely",
+        "I have no friends",
+        "Im isolated",
+        "I feel alone"
+      ],
+      "responses": [
+        "Connecting with community groups or online forums can help. Consider reaching out to someone you trust to share how you feel."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Anger Management",
+      "patterns": [
+        "I get angry quickly",
+        "I cant control my rage",
+        "I lash out",
+        "I have temper issues"
+      ],
+      "responses": [
+        "Try pausing and counting to ten before reacting. Anger management techniques and therapy can teach you healthy ways to express anger."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Body Dysmorphic Disorder",
+      "patterns": [
+        "I hate my appearance",
+        "I see flaws in mirror",
+        "I obsess about body",
+        "I feel ugly"
+      ],
+      "responses": [
+        "Youre not alone in feeling this way. Cognitive Behavioral Therapy and support groups can help challenge negative body image."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Substance Abuse",
+      "patterns": [
+        "I cant stop drinking",
+        "I use drugs daily",
+        "Im addicted",
+        "I need substance"
+      ],
+      "responses": [
+        "Recovery is possible. Consider reaching out to a support group (like AA or NA) or a professional treatment program."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Gambling Addiction",
+      "patterns": [
+        "I cant stop gambling",
+        "I lose money betting",
+        "I gamble every day",
+        "I need to bet"
+      ],
+      "responses": [
+        "Acknowledging it is brave. Financial counseling, support groups, and therapy can help you regain control."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Work Burnout",
+      "patterns": [
+        "Im exhausted at work",
+        "I feel burnt out",
+        "I have no energy for job",
+        "I hate my job"
+      ],
+      "responses": [
+        "It may help to set boundaries, take regular breaks, and discuss workload with your manager or a counselor."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "School Stress",
+      "patterns": [
+        "Im stressed about exams",
+        "I have too much homework",
+        "Im anxious about grades",
+        "I cant study"
+      ],
+      "responses": [
+        "Breaking study into chunks, using a schedule, and practicing relaxation exercises before study sessions can help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Relationship Issues",
+      "patterns": [
+        "I fight with my partner",
+        "Im having relationship problems",
+        "We dont communicate",
+        "I feel distant"
+      ],
+      "responses": [
+        "Open, honest communication is key. Couples counseling or relationship education resources might help you both reconnect."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Perfectionism",
+      "patterns": [
+        "I need everything perfect",
+        "Im never satisfied",
+        "I fear mistakes",
+        "Im overly critical of myself"
+      ],
+      "responses": [
+        "Setting realistic goals, practicing self-compassion, and allowing for mistakes can reduce perfectionist stress."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Procrastination",
+      "patterns": [
+        "I keep putting things off",
+        "I cant start tasks",
+        "I delay work",
+        "I procrastinate"
+      ],
+      "responses": [
+        "Try the Pomodoro Technique (25 minutes work, 5 minutes break) and break tasks into very small steps to get started."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Chronic Pain and Mood",
+      "patterns": [
+        "My pain affects my mood",
+        "Im depressed because of pain",
+        "I feel hopeless with chronic pain",
+        "pain makes me sad"
+      ],
+      "responses": [
+        "Managing pain and mood together is important. Pain management programs and therapy (like ACT) can help improve quality of life."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Hypersomnia",
+      "patterns": [
+        "I sleep too much",
+        "I cant stay awake",
+        "I nap all day",
+        "Im always drowsy"
+      ],
+      "responses": [
+        "Establish a consistent sleep schedule, limit naps, and discuss with a medical professional about possible causes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nightmares",
+      "patterns": [
+        "I have bad dreams",
+        "I wake up scared",
+        "I cant sleep because of nightmares",
+        "I have nightmares every night"
+      ],
+      "responses": [
+        "Before bed, try relaxation techniques and keep a dream journal. If nightmares persist, consider talking to a therapist."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Emotional Numbness",
+      "patterns": [
+        "I feel nothing",
+        "Im numb",
+        "I cant feel emotions",
+        "I feel detached"
+      ],
+      "responses": [
+        "This can be a response to stress or trauma. Grounding exercises, journaling, and therapy can help you reconnect with your emotions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Complicated Grief",
+      "patterns": [
+        "I cant move on",
+        "my grief is overwhelming",
+        "Im stuck in sadness",
+        "I cant accept the loss"
+      ],
+      "responses": [
+        "Complicated grief can benefit from professional support like grief counseling or specialized therapy."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Existential Crisis",
+      "patterns": [
+        "I question my purpose",
+        "I feel life is meaningless",
+        "Im in an existential crisis",
+        "I dont know why Im here"
+      ],
+      "responses": [
+        "Exploring values, meaning-centered therapy, and philosophical reflection can help you find renewed purpose."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Dissociation",
+      "patterns": [
+        "I feel disconnected from myself",
+        "I zone out a lot",
+        "I feel unreal",
+        "I lose time"
+      ],
+      "responses": [
+        "Grounding techniques like focusing on senses, naming objects around you, and mindful breathing can help during dissociation."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mood Swings",
+      "patterns": [
+        "My mood changes fast",
+        "I go from happy to sad quickly",
+        "I have sudden mood swings",
+        "I feel unstable"
+      ],
+      "responses": [
+        "Tracking triggers, regular routines, and talking to a professional about mood stabilizing strategies can help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Impostor Syndrome",
+      "patterns": [
+        "I feel like a fraud",
+        "I dont deserve my success",
+        "Im not good enough",
+        "I fear Ill be exposed"
+      ],
+      "responses": [
+        "Recognize your achievements, share feelings with peers, and practice self-affirmations to combat impostor thoughts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Chronic Fatigue",
+      "patterns": [
+        "Im always tired",
+        "I have no energy",
+        "I feel exhausted all the time",
+        "I cant recover my energy"
+      ],
+      "responses": [
+        "Pacing activities, gentle exercise, and working with a medical professional on energy management strategies can help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Selective Mutism",
+      "patterns": [
+        "I cant speak in certain settings",
+        "I stay silent at school",
+        "I freeze up in social situations",
+        "I cant talk to strangers"
+      ],
+      "responses": [
+        "Gradual exposure with supportive encouragement and working with a speech therapist or psychologist can assist in speaking more comfortably."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Hypervigilance",
+      "patterns": [
+        "Im always on guard",
+        "I cant relax",
+        "Im overly alert",
+        "I feel someone is watching me"
+      ],
+      "responses": [
+        "Grounding exercises, mindfulness, and therapy targeting trauma responses can help reduce hypervigilance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Seasonal Affective Disorder",
+      "patterns": [
+        "Im depressed in winter",
+        "I feel low when its dark",
+        "I lack energy in the cold months",
+        "I need sunlight"
+      ],
+      "responses": [
+        "Light therapy, maintaining routines, and staying socially connected can alleviate seasonal mood changes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pathological Laughing/Crying",
+      "patterns": [
+        "I laugh inappropriately",
+        "I cry without reason",
+        "My emotions feel out of control",
+        "I cant stop crying"
+      ],
+      "responses": [
+        "If emotions feel uncontrollable, consulting a neurologist or psychiatrist can identify and treat underlying causes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Illness Anxiety Disorder",
+      "patterns": [
+        "I think Im sick",
+        "I worry about diseases",
+        "I keep checking my body",
+        "I fear I have an illness"
+      ],
+      "responses": [
+        "Cognitive Behavioral Therapy can help challenge health anxiety. Keeping a health worry diary and limit checking behaviors is useful."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Somatic Symptom Disorder",
+      "patterns": [
+        "I have unexplained aches",
+        "I worry about my pain",
+        "I cant stop thinking about symptoms",
+        "I feel sick with no diagnosis"
+      ],
+      "responses": [
+        "Mind-body therapies, CBT, and collaboration with medical providers can help manage physical symptom worries."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Factitious Disorder",
+      "patterns": [
+        "I fake symptoms",
+        "I cause injury to get attention",
+        "I lie about being ill",
+        "I induce illness"
+      ],
+      "responses": [
+        "Professional medical and psychiatric evaluation is important. Treatment often involves psychotherapy to address underlying needs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Conversion Disorder",
+      "patterns": [
+        "I have numb limbs with no cause",
+        "Im suddenly paralyzed",
+        "I lose vision but tests are clear",
+        "I have unexplained neurological symptoms"
+      ],
+      "responses": [
+        "Neurological and psychological assessment is recommended. Psychotherapy, especially CBT, can help address conversion symptoms."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Dysthymia",
+      "patterns": [
+        "I feel down most days",
+        "Ive been sad for years",
+        "I have mild depression always",
+        "I rarely feel happy"
+      ],
+      "responses": [
+        "Persistent depressive symptoms can be managed with therapy, medication, and lifestyle changes like regular exercise."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Reactive Attachment Disorder",
+      "patterns": [
+        "I cant bond with caregivers",
+        "I avoid relationships",
+        "Im emotionally withdrawn",
+        "I have trouble trusting"
+      ],
+      "responses": [
+        "Early intervention with a child psychologist and a stable caregiving environment are key to building healthy attachments."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Selective Eating",
+      "patterns": [
+        "I only eat certain foods",
+        "I refuse new foods",
+        "I have very limited diet",
+        "Im a picky eater to extremes"
+      ],
+      "responses": [
+        "Working with a nutritionist and therapist to gradually introduce new foods in a low-pressure setting can help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Internet Addiction",
+      "patterns": [
+        "I cant stop browsing",
+        "I play games all night",
+        "Im online non-stop",
+        "Im addicted to social media"
+      ],
+      "responses": [
+        "Setting daily limits, scheduling offline activities, and seeking support from a counselor can reduce excessive internet use."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Smartphone Addiction",
+      "patterns": [
+        "I check my phone constantly",
+        "I cant put my phone down",
+        "I feel anxious without my phone",
+        "I scroll endlessly"
+      ],
+      "responses": [
+        "Try setting phone-free times, using apps that limit usage, and replacing scrolling with another activity like reading."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Gaming Disorder",
+      "patterns": [
+        "I play video games non-stop",
+        "I cant stop gaming",
+        "Gaming is all I do",
+        "I skip meals to game"
+      ],
+      "responses": [
+        "Scheduling gaming times, balancing activities, and seeking support groups or therapy can help manage gaming behavior."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Workaholism",
+      "patterns": [
+        "I cant stop working",
+        "I work late every night",
+        "I neglect personal life for work",
+        "I overwork"
+      ],
+      "responses": [
+        "Setting clear work boundaries, scheduling leisure time, and discussing workload with a mentor or therapist can help restore balance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cluttering",
+      "patterns": [
+        "I speak too fast and jumbled",
+        "I lose my train of thought",
+        "I have a cluttered speech",
+        "People dont understand me"
+      ],
+      "responses": [
+        "Speech therapy focusing on pacing and clarity exercises can help manage cluttered speech patterns."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Speech Anxiety",
+      "patterns": [
+        "I fear public speaking",
+        "I get stage fright",
+        "I panic before presentations",
+        "My voice shakes when I speak"
+      ],
+      "responses": [
+        "Practice your speech in a safe environment, use deep breathing before you start, and consider joining a public speaking group like Toastmasters."
+      ],
+      "context_set": ""
+    }
+  ]
+}
